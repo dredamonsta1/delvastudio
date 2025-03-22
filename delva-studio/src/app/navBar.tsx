@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./navBar.module.css";
 
 
 
@@ -6,7 +7,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className="nav-bar">
+      <nav className={styles.navBar}>
       <ul>
         {/* <li>
           <a href="#home"><h1>Delva Studio</h1></a>
