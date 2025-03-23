@@ -17,14 +17,14 @@ const About = () => {
           with others through my lens.
         </p>
         <p className="text-gray-600 mb-6">
-          With over a decade of experience in photography, I've developed a style that emphasizes 
+          With over a decade of experience in photography, I&apos;ve developed a style that emphasizes 
           natural light, composition, and the subtle interplay between elements in nature.
         </p>
         <h2 className="text-2xl font-light mt-12 mb-4">Exhibitions</h2>
         <ul className="list-none space-y-4">
-          <li className="text-gray-600">2023 - "Natural Perspectives" - Gallery 23, New York</li>
-          <li className="text-gray-600">2022 - "Light & Shadow" - Modern Arts Center, Boston</li>
-          <li className="text-gray-600">2021 - "Earth's Canvas" - Nature Photography Festival, Seattle</li>
+          <li className="text-gray-600">2023 - &quot;Natural Perspectives&quot; - Gallery 23, New York</li>
+          <li className="text-gray-600">2022 - &quot;Light & Shadow&quot; - Modern Arts Center, Boston</li>
+          <li className="text-gray-600">2021 - &quot;Earth&apos;s Canvas&quot; - Nature Photography Festival, Seattle</li>
         </ul>
       </div>
     </motion.div>
