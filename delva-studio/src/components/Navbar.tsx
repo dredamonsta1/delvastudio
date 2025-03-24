@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Camera className="w-6 h-6" />
-            <span className="font-light text-lg">Photography Portfolio</span>
+            <span className="font-light text-lg">Delva Studio</span>
           </Link>
           
           <div className="flex space-x-8">

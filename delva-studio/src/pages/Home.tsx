@@ -27,11 +27,11 @@ const photos = [
     url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e',
     alt: 'Sun rays through trees'
   },
-  {
-    id: 6,
-    url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e',
-    alt: 'Lake view'
-  }
+//   {
+//     id: 6,
+//     url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e',
+//     alt: 'Lake view'
+//   }
 ];
 
 const Home = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./navBar.module.css";
+import styles from "../components/Navbar.module.css";
 
 
 
@@ -9,9 +9,9 @@ export default function NavBar() {
   return (
       <nav className={styles.navBar}>
       <ul>
-        {/* <li>
+        <li>
           <a href="#home"><h1>Delva Studio</h1></a>
-        </li> */}
+        </li>
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
