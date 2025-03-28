@@ -103,13 +103,14 @@ function Contact() {
 
 function App() {
   return (
+    <>
     <div className="min-h-screen">
       <header className="py-8 px-4">
-        <h1 className="text-4xl text-left mb-8 font-bodoni">Delva Studio</h1>
-        <nav className="flex justify-center space-x-8 font-opensans">
-          <Link to="/" className="text-gray-800 hover:text-gray-600">Photography</Link>
-          <Link to="/about" className="text-gray-800 hover:text-gray-600">About</Link>
-          <Link to="/contact" className="text-gray-800 hover:text-gray-600">Contact</Link>
+        <h1 className="text-4xl text-left mb-8 font-bodoni"><Link to="/"> Delva Studio</Link></h1>
+        <nav className="flex justify-end space-x-8 font-opensans">
+          <Link to="/" className="text-gray-800 hover:text-gray-400">Photography</Link>
+          <Link to="/about" className="text-gray-800 hover:text-gray-400">About</Link>
+          <Link to="/contact" className="text-gray-800 hover:text-gray-400">Contact</Link>
         </nav>
       </header>
 
@@ -121,6 +122,7 @@ function App() {
         </Routes>
       </main>
     </div>
+    </>
   );
 }
 
