@@ -1,8 +1,11 @@
 // import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin } from 'lucide-react';
+// import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
+    onclick = () => {
+        console.log("message onCLick pressed");
+    }
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,21 +17,21 @@ const Contact = () => {
       
       <div className="space-y-8">
         <div className="flex items-center space-x-4">
-          <Mail className="w-6 h-6 text-gray-400" />
+          {/* <Mail className="w-6 h-6 text-gray-400" /> */}
           <a href="mailto:contact@example.com" className="text-gray-600 hover:text-gray-900">
-            contact@example.com
+            Stevensondelva@gmail.com
           </a>
         </div>
         
         <div className="flex items-center space-x-4">
-          <Phone className="w-6 h-6 text-gray-400" />
+          {/* <Phone className="w-6 h-6 text-gray-400" /> */}
           <a href="tel:+1234567890" className="text-gray-600 hover:text-gray-900">
-            +1 (234) 567-890
+            +1 (646) 348-4230
           </a>
         </div>
         
         <div className="flex items-center space-x-4">
-          <MapPin className="w-6 h-6 text-gray-400" />
+          {/* <MapPin className="w-6 h-6 text-gray-400" /> */}
           <span className="text-gray-600">
             New York, NY
           </span>
@@ -69,7 +72,8 @@ const Contact = () => {
           </div>
           
           <button
-            type="submit"
+                      type="submit"
+                        // onClick={onclick}
             className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
           >
             Send Message

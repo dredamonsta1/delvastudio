@@ -1,6 +1,6 @@
 // import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Camera } from 'lucide-react';
+// import { Camera } from 'lucide-react';
 
 const Navbar = () => {
   const location = useLocation();
@@ -10,8 +10,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Camera className="w-6 h-6" />
-            <span className="font-light text-lg">Delva Studio</span>
+            {/* <Camera className="w-6 h-6" /> */}
+            <span className="font-extrabold text-lg">Delva Studio</span>
           </Link>
           
           <div className="flex space-x-8">
